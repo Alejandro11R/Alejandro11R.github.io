@@ -1,0 +1,152 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(2.jpg);
+
+}
+.docum{
+    background: #b9b8b8;
+    text-align:end;
+    font-weight:90px;
+    color:rgb(27, 26, 24);
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px #000000;
+    width: 90%;
+    box-sizing: border-box ;
+    margin-left: 1400px;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(61, 49, 230);
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight:90px;
+    background: rgb(4, 19, 31);
+    color:rgb(226, 224, 224);
+    border: 1px solid #000000;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 5px #5353b6;
+    width:  90%;
+    box-sizing: border-box ;
+  
+    
+    
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+h3{
+    color: rgb(61, 49, 230);
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:70px;
+    background: rgb(10, 15, 19);
+    color:rgb(139, 134, 134);
+    border: 1px solid #000000;
+    margin: 30px 80px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 5px 4px #e3e3e6;
+    width:  27%;
+    box-sizing: border-box ;
+    text-align: left;
+
+
+}
+.Click{
+    color: rgb(61, 49, 230);
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight:90px;
+    background: rgb(4, 19, 31);
+    color:rgb(226, 224, 224);
+    border: 1px solid #000000;
+    margin: 60px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 5px 5px #e3e3e6;
+    width:  90%;
+    margin-left: 100px;
+    box-sizing: border-box ;
+    text-decoration: none;
+    
+
+}
+
+p{
+    color: #0f1930;
+    font-weight: 300;
+}
+
+.container{
+    margin: 50px auto;
+    width: 90%;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.Columna{
+    background: #59B4C3;
+    color:rgb(27, 27, 27);
+    border: 1px solid #3063db;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:-10px 10px 30px #55bb77;
+    width:  23%;
+    box-sizing: border-box ;
+}
+.precio{
+    font-size: 60px;
+    color: rgb(27, 26, 26);
+}
+.btn-precio{
+    background: #578f6e;
+    display: block;
+    padding: 10px;
+    color: rgb(228, 226, 226);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom:10px ;
+}
+.btn-precio:hover{
+    background:rgb(77, 32, 32) ;
+}
+
+@media (max-width: 1070px)  {
+.Columna{
+    width: 45%;
+    margin-bottom: 20px;
+    
+}
+}
+@media (max-width: 600px){
+    .Columna{
+        width: 100%;
+        margin-bottom: 20px; 
+}
+}
+@media (max-width: 1070px){
+    .docum{
+        width: 45%;
+        margin-bottom: 20px; 
+}
+}
+@media (max-width: 600px){
+    .docum{
+        width: 100%;
+        margin-bottom: 20px; 
+}
+}
